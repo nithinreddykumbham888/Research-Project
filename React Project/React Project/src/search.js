@@ -56,11 +56,11 @@ function Search() {
     };
 
     const columns = [
-        { label: "Pdf", accessor: "Pdf", sortable: false },
         { label: "Title", accessor: "Title", sortable: true },
         { label: "Year", accessor: "Year", sortable: true },
         { label: "Topic", accessor: "Topic", sortable: true },
         { label: "Technique", accessor: "Technique", sortable: true },
+        { label: "Pdf", accessor: "Pdf", sortable: false },
     ];
 
     return (
